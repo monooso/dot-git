@@ -1,0 +1,40 @@
+[alias]
+    backup = push backup
+    ctags = !.git/hooks/ctags
+    discard = checkout -- .
+    refresh = remote update origin --prune
+    stash-all = stash save --include-untracked
+    undo = reset --soft HEAD^
+[apply]
+    whitespace = nowarn
+[color]
+    branch = auto
+    diff = auto
+    ui = true
+    status = auto
+[core]
+    editor = vi
+    excludesfile = /Users/monooso/.gitignore_global
+[difftool]
+    prompt = false
+[format]
+    pretty = format:%Cred%ad %C(yellow)%h %Cblue%an%Cgreen%d %Creset%s
+[help]
+    autocorrect = 10
+[log]
+    date = short
+[merge]
+    conflictstyle = diff3
+    ff = false
+[mergetool]
+    keepBackup = false
+[pull]
+    prune = true
+    rebase = true
+[push]
+    default = simple
+[status]
+    showUntrackedFiles = all
+[include]
+    # Use a separate file for username, signing key, etc.
+    path = ~/.gitconfig.local
