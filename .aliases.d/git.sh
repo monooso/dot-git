@@ -6,7 +6,7 @@ alias gc='git commit'
 alias gd='git diff'
 alias gl='git log'
 alias gco='git checkout'
-alias gs='git status -sb'
+alias gs='git status -sb | sort -bf'
 
 # -----------------------------------------------------------------------------
 # Push a repository to the `backup` remote
