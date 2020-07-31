@@ -5,6 +5,7 @@
     refresh = remote update origin --prune
     stash-all = stash save --include-untracked
     undo = reset --soft HEAD^
+    unstage = restore --staged
 [apply]
     whitespace = nowarn
 [color]
