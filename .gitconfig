@@ -41,3 +41,5 @@
 [include]
     # Use a separate file for username, signing key, etc.
     path = ~/.gitconfig.local
+[init]
+    defaultBranch = main
